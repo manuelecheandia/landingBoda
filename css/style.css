@@ -2,15 +2,17 @@ header {
    width: 100%;
    min-height: 625px;
    
+   
 }
+
 
 .wave {
    position: relative;
    padding-top: 10rem; 
    background: url('../img/fondo.jpeg') no-repeat fixed center;
    background-color: rgba(0,0,0,1);
+   padding-bottom: 15rem;
    
-
    
 }
 .wave::after {
@@ -24,9 +26,10 @@ header {
    z-index:-1;
  }
 
+ .principal{
 
-
-
+   padding-bottom: 25rem;
+}
 
 @media (max-width: 992px) {
    
